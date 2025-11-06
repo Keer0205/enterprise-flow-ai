@@ -3,6 +3,10 @@ from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 from langchain.chains import LLMChain
 
+if st.button("🗑️ Clear Cache"):
+    st.cache_data.clear()
+    st.success("Cache cleared! Refresh the page.")
+
 st.title("EnterpriseFlow AI")
 st.caption("RPA CoE Platform | 60% Faster | 95% Uptime")
 
