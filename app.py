@@ -20,4 +20,4 @@ if st.button("Generate Bot Design"):
         st.success("Bot Design Ready!")
         st.json(result)
         st.info("Power Automate → Blue Prism VBO generated")
-        st.balloons()  
+        st.balloons()
